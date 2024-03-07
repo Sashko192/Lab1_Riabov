@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lab1.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container" onmouseover="showAuthorInfo()" onmouseout="hideAuthorInfo()">
+            <img src="AMONG.png" alt="IMG" class="logo">
+            <div class="authorInfo" id="authorInfo">
+                <p>Riabov Oleksandr</p>
+                <p>Live in Ukraine</p>
+            </div>
+        </div>
+        <ul>
+            <li>
+                <a href="index.html">Школа</a>
+            </li>
+            <li>
+                <a href="Financy.html">Фінансист</a>
+            </li>
+            <li>
+                <a href="Editor.html">Редактор</a>
+            </li>
+        </ul>
+    </header>
+    <div class="ZERO">
+        <p>Згенеруйте рандомний пароль</p>
+        <p id="generatedPassword"></p>
+        <button onclick="generatePassword()">Згенерувати пароль</button>
+    </div>
+
+    <script src = 'main.js'></script>
+</body>
+</html>
